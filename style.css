@@ -1,0 +1,119 @@
+/* Color Palette 
+#2B2D42 - dark blue
+#8D99AE - light blue
+#EDF2F4 - blue/white
+#EF233C - red
+*/
+html{
+    box-sizing: border-box;
+}
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+*{
+ margin: 0;
+padding: 0;
+ 
+}
+
+/*--------- Side Navigation
+----------------------------*/
+.side-nav{
+ background-color: white;
+    display: block;
+    color: #EF233C;
+ float: left;
+ width: 15%;
+ height: 100vh;
+ position: fixed;
+ display: block;
+ text-align: center;
+ text-transform: uppercase;
+ font-weight: 700;
+    
+
+    
+}
+.logo{
+  font-size: 80px;
+  font-family: 'Caveat', cursive;
+  margin-left: -12px;
+  
+}
+nav{
+ 
+}
+ul{
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+}
+ul li{
+  
+     padding-top: 10px;
+}
+ul li a:hover{
+    border-bottom: solid 2px;
+    border-color: #EF233C; 
+}
+
+/*------------ Main Content
+----------------------------------*/
+.main-content{
+    display: block;
+     font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    float: right;
+    width: 85%;
+    height: 100vh;
+}
+.heading{
+    font-family: 'Caveat', cursive;
+    font-size: 4vw;
+    color: white;
+}
+#about{
+    background-color: #2B2D42;
+    text-align: center;
+    color: #8D99AE ;
+    height: 400px;
+}
+#skills{
+    color:#2B2D42;
+  background-color:#EDF2F4;
+    height: 400px;  
+}
+#work{
+    background-color: #8D99AE;
+    height: 400px;
+}
+#contact{
+    background-color: #2B2D42;
+    height: 500px;
+}
+/*-------- copyright
+----------------------*/
+.copyright{
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    bottom:0px;
+    width:100%;
+    text-transform: none;
+    font-size: 13px;
+    
+}
+/*------Media quirys
+-----------------------*/
+
+@media only screen and (max-width: 768px) {
+    
+    .side-nav{
+        width:25%;
+    }
+    .main-content{
+        width: 75%;
+    }
+    .heading{
+        font-size: 8vw;
+    }
+}
